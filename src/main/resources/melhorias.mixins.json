@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.melhorias.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FishingBobberEntityMixin"
+  ],
+  "client": [
+    "client.MerchantScreenMixin",
+    "client.CreativeInventoryScreenMixin",
+    "client.RecipeBookWidgetMixin",
+    "client.BoatEntityMixin"
+  ]
+}

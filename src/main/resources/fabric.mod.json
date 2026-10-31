@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "melhorias",
+  "version": "${version}",
+  "name": "Melhorias de jogabilidade",
+  "description": "Atualizar ofertas de aldeões, busca com correção de erros, barcos melhores e pesca com revelação.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.melhorias.MelhoriasMod"],
+    "client": ["com.example.melhorias.client.MelhoriasClient"]
+  },
+  "mixins": ["melhorias.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
